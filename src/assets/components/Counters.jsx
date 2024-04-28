@@ -1,8 +1,8 @@
-export default function Counter({ cases }) {
+export default function Counters({ cases }) {
     return (
         <>
             <p>
-                <p>I have {cases} cases</p>
+                <p>I have {cases} solved cases</p>
             </p>
         </>
     );
