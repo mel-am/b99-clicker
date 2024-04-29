@@ -1,17 +1,24 @@
 
 import React from "react";
 import Counter from "./Counters";
+import Button from "./Button";
 import { upgradesList } from "../../App";
 export default function Game({ cases, cps, buyUpgrade }) {
   return (
     <div>
       <h1>Solve as many cases as you can!</h1>
-      <Counter label="New Cases" value={cases} /> 
+      <Counter label="New Cases" value={cases} />
       <Counter label="Cases Per Second" value={cps} />
-
-      <button onClick={() => buyUpgrade(upgradesList[0])}>
+      <div>
+        {cases >= upgradesList[0].cost && (
+          <button onClick={() => buyUpgrade(upgradesList[0])}>
+            Upgrade your partner
+          </button>
+        )}
+      </div>
+      {/* <button onClick={() => buyUpgrade(upgradesList[0])}>
         Upgrade
- your partner</button>
+ your partner</button> */}
     </div>
   );
 }
