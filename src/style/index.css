@@ -5,7 +5,7 @@ main {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  color: aliceblue;
+  color: rgb(4, 97, 179);
 }
 button {
   border-radius: 8px;
@@ -30,15 +30,3 @@ button:focus-visible {
 
 
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

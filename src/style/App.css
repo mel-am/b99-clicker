@@ -1,51 +1,14 @@
-/* #root {
-  max-width: 1280px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(33, 33, 120);
+}
+#root {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
-
-#root {
   width: 100%;
-  padding: 1em;
-  margin: 0 auto;
-  padding: 2rem; 
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -55,28 +18,72 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  color: whitesmoke;
   font-size: 35px;
-  background-color: hsla(0, 62%, 27%, 0.2);
+  background-color: rgba(0, 0, 0, 0.037);
+ 
   background-image: url("/images/bullpen.png");
-  
+
   
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+
+.intro-page{
+  background-color: rgb(33, 33, 120);
+  color: aliceblue;
+  padding: 80px;
 }
 .blue-button {
   padding: 1em;
   background-color: rgb(18, 92, 241);
   color: black;
+  margin-top: 30px;
 }
 .blue-button:hover {
   box-shadow: 1px burlywood;
 }
 .heading {
-  color: blue;
+  color: rgb(191, 191, 222);
 
+}
+
+button {
+  color: blue;
+  background-color: rgb(191, 191, 222);
+  border:black 2px solid;
+  margin: 2px;
+display: ;
+  flex-direction: row;
+ 
+
+
+}
+
+table{
+ color: whitesmoke;
+ display: column;
+ border: 2px solid, white;
+
+}
+img{
+  width: 20%;
+  height: 20%;
+}
+
+upgrade-list {
+  display: table;
+}
+
+.upgrade-item {
+  display: table-row;
+}
+
+.upgrade-item img,
+.upgrade-item button {
+  display: table-cell;
+  padding: 5px;
+}
+
+.upgrade-item button {
+  cursor: pointer;
 }
