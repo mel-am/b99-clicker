@@ -10,4 +10,6 @@
 
 🎯 Create a function to handle the purchase of an item. This should check if the user has enough cookies to purchase the item, and if so, subtract the cost of the item from the number of cookies and add the increment value to the cookiesPerSecond value.
 
-This is a Brookyln 99 Cookie clicker. As you solve more cases you get to work with a different team member ( All the team members have soundbites buttons). 
+This is a Brookyln 99 Cookie clicker. As you solve more cases, you have the opportunity to upgrade your partnership and work with a different team member ( All the team members have soundbites buttons).
+
+There is an array for the partner upgrades, which includes their name, their cost, their increment increase value, image and soundbite.
