@@ -32,12 +32,16 @@
   background-color: rgb(33, 33, 120);
   color: aliceblue;
   padding: 80px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
 }
 .blue-button {
   padding: 1em;
   background-color: rgb(18, 92, 241);
   color: black;
   margin-top: 30px;
+  text-decoration: none;
 }
 .blue-button:hover {
   box-shadow: 1px burlywood;
